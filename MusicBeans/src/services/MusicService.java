@@ -12,5 +12,7 @@ public interface MusicService {
 	public List<Song> getSongList();
 
 	public String getDetailFromAlbum(Album album);
+	
+	public String getJson();
 
 }

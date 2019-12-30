@@ -32,6 +32,12 @@ public class Main {
 		String detailFromAlbum = musicServ.getDetailFromAlbum(genericAlbum);
 
 		System.out.println(detailFromAlbum);
+		
+		String json = musicServ.getJson();
+		
+		System.out.println("gh");
+
 	}
+	
 
 }

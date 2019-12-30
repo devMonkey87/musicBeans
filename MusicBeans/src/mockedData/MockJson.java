@@ -12,14 +12,25 @@ import java.util.Map;
 
 import com.google.gson.Gson;
 
+import models.Album;
+
 public class MockJson {
 	
 	
 
-	public void te() {
+	public String te() {
 		
 		Gson name = new Gson();
-		//name.fromJson(json, classOfT)
+		
+		String json = name.toJson(new Album("Lol"));
+		
+		System.out.println(json);
+		
+		
+		return json;
+		
+		
+		
 	}
 	
 	

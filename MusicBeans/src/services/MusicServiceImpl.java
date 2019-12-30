@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import mockedData.MockJava;
+import mockedData.MockJson;
 import models.Album;
 import models.AlbumDetail;
 import models.Song;
@@ -64,6 +65,13 @@ public class MusicServiceImpl implements MusicService {
 		AlbumDetail fromAlbumToDetail = Tools.fromAlbumToDetail(album);
 		return fromAlbumToDetail.toString();
 
+	}
+	
+	public String getJson() {
+		
+		MockJson json = new MockJson();
+		
+		return json.te();
 	}
 
 }
