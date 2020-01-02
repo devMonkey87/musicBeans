@@ -44,7 +44,7 @@ public class Main {
 		
 		UtilesLog.registrarInfo(Main.class, UtilesLog.TipoLog.DEBUG, detailFromAlbum);
 		
-		String json = musicServ.getJson();
+		String json111 = musicServ.getJson();
 		
 
 	}
