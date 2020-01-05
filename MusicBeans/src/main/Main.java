@@ -18,6 +18,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		//rama1
+
+
 		PropertyConfigurator.configure(log4jConfPath);
 
 
