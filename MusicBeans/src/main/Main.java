@@ -17,7 +17,7 @@ public class Main {
 	static String log4jConfPath = "src/app/resources/log4j.properties";
 
 	public static void main(String[] args) {
-		
+		//rama1
 		PropertyConfigurator.configure(log4jConfPath);
 
 
